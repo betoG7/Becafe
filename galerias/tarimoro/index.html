@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Becafe | Proyectos Construcción y Diseño</title>
+
+    <!-- For-Mobile-Apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //For-Mobile-Apps -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../../a/dist/css/lightbox.min.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom-Theme-Styling -->
+    <link href="../../css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Owl-Carousel-Styling -->
+    <link rel="stylesheet" href="../../css/owl.carousel.css" type="text/css" media="all">
+
+    <script src="../../js/modernizr.custom.js"></script>
+
+</head>
+
+<body>
+
+
+    <!-- Header-Starts-Here -->
+    <div class="header">
+
+        <div class="container">
+            <!-- Navigation -->
+            <nav class="navbar2">
+                <header>
+
+
+                    <ul class="nav ">
+                        <li>
+                            <a href="../../index.html">
+                                <img src="../../images/bhi.png" width="35" height="35"></img>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- //Navbar-collapse -->
+                </header>
+            </nav>
+        </div>
+        <!-- //Container -->
+    </div>
+
+    <div class="content">
+
+        <!-- Area-Starts-Here -->
+        <div class="area" id="services">
+
+            <div class="container">
+                <div class="area1">
+                    <h2 style="margin-top: 50px;">Alcantarilla el Tecolote.</h2>
+                    <h4 style=" margin-left: 20px;">Trabajos realizados en conjunto con el H. Ayuntamiento para la construcción de la alcantarilla en camino al Tecolote.</h4>
+                    <div class="sha bottom-hid proydet desde-web caja web-25">
+                        <ul class="details-list">
+                            <li><strong>Cliente</strong></li>
+                            <li><strong>Fecha</strong>La Piedad Michoacán 2015</li>
+                            <li><strong>Categoría</strong>Fotografia</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 air slideanim">
+                    <div class="">
+
+                        <div class="column-wrap clearfix">
+                            <div class="column">
+
+                                <a class="example-image-link" href="images/1.jpg" data-lightbox="example-set" data-title=""><img class="example-image imagenbien" src="images/1.jpg" width="350" height="300" alt="" /></a>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="area-info">
+                        <h4>Especialistas en Presupuestos.</h4>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 sea slideanim">
+                    <div class="">
+                        <div class="column-wrap clearfix">
+                            <div class="column">
+
+                                <a class="example-image-link" href="images/2.jpg" data-lightbox="example-set" data-title=""><img class="example-image imagenbien" src="images/2.jpg" width="350" height="300" alt="" /></a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="area-info">
+                        <h4>Control de Obras.</h4>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 land slideanim">
+                    <div class="">
+                        <div class="column-wrap clearfix">
+                            <div class="column">
+
+                                <a class="example-image-link" href="images/3.jpg" data-lightbox="example-set" data-title=""><img class="example-image imagenbien" src="images/3.jpg" width="350" height="300" alt="Hola" /></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="area-info">
+                        <h4>Cálculo Estructural.</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="linespace"></div>
+
+
+
+            <div class="linespace"></div>
+        </div>
+
+    </div>
+    <!-- //Area-Ends-Here -->
+
+
+    </div>
+    <!-- //Cover-Ends-Here -->
+
+    </div>
+
+
+    <!-- Supportive-JavaScript -->
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <!-- Necessary-JS-File-For-Bootstrap -->
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+
+    <!-- SmoothScroll-JavaScript -->
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar li a, .footer a[href='#myPage']").on('click', function(event) {
+
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function() {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            });
+
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+    <!-- //SmoothScroll-JavaScript -->
+
+    <!-- Slideanim-JavaScript -->
+    <script type="text/javascript">
+        $(window).scroll(function() {
+            $(".slideanim").each(function() {
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    </script>
+    <!-- //Slideanim-JavaScript -->
+
+    <!-- Owl-Carousel-JavaScript -->
+    <script src="../../js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                items: 4,
+                lazyLoad: true,
+                autoPlay: true,
+                pagination: false,
+            });
+        });
+    </script>
+    <!-- //Owl-Carousel-JavaScript -->
+
+    <!-- Banner-Slider-JavaScript -->
+    <script src="../../js/responsiveslides.min.js"></script>
+    <script>
+        $(function() {
+            $("#slider").responsiveSlides({
+                auto: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+    <!-- //Banner-Slider-JavaScript -->
+
+    <!-- Smooth-Scrolling-JavaScript -->
+    <script type="text/javascript" src="../../js/move-top.js"></script>
+    <script type="text/javascript" src="../../js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //Smooth-Scrolling-JavaScript -->
+
+    <!-- FlexSlider-JavaScript -->
+    <script defer src="../../js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            SyntaxHighlighter.all();
+        });
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+    <!-- //FlexSlider-JavaScript -->
+    <!--Gallery-->
+    <script src="../../a/dist/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+
+</html>
